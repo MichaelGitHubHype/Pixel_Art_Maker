@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <title>Pixel Art Maker!</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Monoton">
     <link rel="stylesheet" href="styles.css">
 </head>
@@ -14,7 +15,7 @@
         <input type="number" id="inputHeight" name="height" min="1" value="1">
         Grid Width:
         <input type="number" id="inputWidth" name="width" min="1" value="1">
-        <button type='button' onclick='makeGrid()'>Submit</button>
+        <button type='button' onclick='pixels.makeGrid()'>Submit</button>
     </form>
 
     <h2>Pick A Color</h2>
@@ -23,24 +24,6 @@
     <h2>Design Canvas</h2>
     <table id="pixelCanvas"></table>
 	<script src="designs.js"></script> 
-	<!-- <table>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-		<tr>
-			<td></td>
-			<td></td>
-			<td></td>
-		</tr>
-
-	</table> -->
 
 </body>
 </html>
