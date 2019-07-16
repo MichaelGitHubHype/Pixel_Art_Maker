@@ -12,7 +12,7 @@ class PixelArt {
             for (let column = 0; column < height; column++) {
                 var z = x.insertCell(column);
                 z.addEventListener("click", function () {
-                    this.setAttribute("style", `background-color: ${color.value}`)
+                    this.setAttribute("style", `background-color: ${pixels.color.value}`)
                 })
             };
         };

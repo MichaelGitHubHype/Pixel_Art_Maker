@@ -1,10 +1,5 @@
-# Pixel Art Maker Project
+# Pixel Art Maker
 
-## Table of Contents
+See project page: https://michaelgithubhype.github.io/Pixel_Art_Maker/
 
-* [Instructions](#instructions)
-* [Contributing](#contributing)
-
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
+![Example](project_example.png)
